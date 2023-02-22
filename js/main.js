@@ -23,5 +23,3 @@ document.getElementById("prezzoTreno").innerHTML =
     ${prezzo.toFixed(2)}
     $
 `;
-
-
