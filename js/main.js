@@ -15,4 +15,13 @@ if (eta > 65) {
     prezzo = prezzo - ((prezzo * 20) / 100);
 }
 
-console.log (prezzo)
+console.log(prezzo)
+console.log(prezzo.toFixed(2))
+
+document.getElementById("prezzoTreno").innerHTML = 
+`
+    ${prezzo.toFixed(2)}
+    $
+`;
+
+
